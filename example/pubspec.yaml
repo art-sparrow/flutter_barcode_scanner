@@ -4,13 +4,13 @@ publish_to: 'none'
 version: 2.0.0-nullsafety.0
 
 environment:
-  sdk: '>=2.12.0-0 <3.0.0'
+  sdk: '>=3.2.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.1+1
-  flutter_plugin_android_lifecycle: ^2.0.0-nullsafety
+  cupertino_icons: ^1.0.8
+  flutter_plugin_android_lifecycle: ^2.0.24
 
 dev_dependencies:
   flutter_test:
@@ -19,7 +19,7 @@ dev_dependencies:
   flutter_barcode_scanner:
     path: ../
 
-  pedantic: ^1.10.0-nullsafety.3
+  lints: ^5.1.1
 
 flutter:
   uses-material-design: true
